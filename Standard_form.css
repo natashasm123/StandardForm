@@ -1,0 +1,41 @@
+.Personal-Details legend{
+     color: brown;
+}
+.Educatinal-Details legend{
+    color: brown;
+}
+.Personal-Details, 
+.Educational-Details {
+    border: 1px solid black; 
+    background-color: gray;
+    padding: 10px;
+}
+.table-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+table{
+    margin:15px;
+}
+form {
+    margin: 0 auto; 
+    width: 50%; 
+}
+.Submit{
+    background-color: maroon;
+    color: white;
+}
+.submit:active {
+    background-color: white;
+}
+.custom-label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 16px; 
+}
+
+#one{
+    background-color: white;
+}
